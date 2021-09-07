@@ -1,9 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const RandomColor = ({ }) => {
+const Display = ({ }) => {
   
 };
 
 
-export default RandomColor;
+export default Display;
