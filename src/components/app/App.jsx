@@ -1,7 +1,6 @@
 import React from 'react';
-import RandomColor from '../RandomColor';
-import Display from '../Display';
+import RandomColor from '../../containers/RandomColor';
 
 export default function App() {
-  return <h1>Hello World</h1>;
+  return <RandomColor />;
 }
