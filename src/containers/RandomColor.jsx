@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import setColor from '../components/color-generator/SetColor';
+import setBgColor from '../components/color-generator/SetColor';
 import Display from '../components/color-generator/Display';
 
 class RandomColor extends Component {
@@ -10,13 +10,16 @@ class RandomColor extends Component {
   render() {
     return (
       <>
-        <setColor />
-        <Display />
+        <setBgColor
+          bgColor={this.state.bgColor}
+        />
+        <Display
+          bgColor={this.state.bgColor}
+        />
       </>
     );
   }
 }
-
 
 export default RandomColor;
 
